@@ -60,4 +60,5 @@ sudo usermod -aG docker $(whoami)
 newgrp docker
 sudo apt-get upgrade -y
 
-
+# Reboot machine
+sudo reboot
